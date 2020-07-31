@@ -1,0 +1,83 @@
+<!-- Lab3 Task 2 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nerd Shirt </title>
+  <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id="main">
+  <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+    <div class="alignCenter">
+      <fieldset>
+        <legend>Select Shirt</legend>
+            <img src="tshirt.png" alt="t-shirt">
+          <div class="buttonBox">
+                <label>
+                  <input type="radio" name="color" value="white">  <span class="white">White</span>
+                </label>
+                <label>
+                  <input type="radio" name="color" value="red">  <span class="red">Red</span>
+                </label>
+                <label>
+                  <input type="radio" name="color" value="blue"> <span class="blue">Blue</span>
+                </label>
+                <label>
+                  <input type="radio" name="color" value="green">  <span class="green">Green</span>
+                </label>
+          </div>
+        <p>
+          <label>Size</label>
+          <select name = "size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="x-large">X-Large</option>
+          </select>
+        </p>
+      </fieldset>
+    </div>
+
+
+      <fieldset>
+        <legend>Payment</legend>
+        <div class="alignCenter">
+
+            <label>
+              <input type="radio" name="cardType" value="vs"> Visa
+            </label>
+            <label>
+              <input type="radio" name="cardType" value="mc"> MasterCard
+            </label>
+            <label>
+              <input type="radio" name="cardType" value="ae"> American Express
+            </label>
+
+          </div>
+          <hr>
+          <p> Card Number:
+            <input class="cardNumber" type="text" name="cc1" maxlength="4">-
+            <input class="cardNumber" type="text" name="cc2" maxlength="4">-
+            <input class="cardNumber" type="text" name="cc3" maxlength="4">-
+            <input class="cardNumber" type="text" name="cc4" maxlength="4">
+          </p>
+          <hr>
+          <p>
+            Expiration Month (MM)<input class="cardExpiration" type="text" name="month" maxlength="2">
+            Year(YY)<input class="cardExpiration" type="text" name="year" maxlength="2">
+          </p>
+          </fieldset>
+        <p class="floatLeft">
+        Place Order
+        <input type="submit" value="Submit">
+        </p>
+        <p class="floatRight">
+        Reset Fields
+        <input type="reset" value="Reset">
+        </p>
+    </form>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+}
+
+#header{
+  text-align: right;
+  padding: 5px;
+}
+
+#main {
+  border: 1px solid black;
+  padding: 5px;
+  width: 250px;  /* the width of the #main div is 400 pixels */
+  margin: auto;  /* by setting margin to auto - the div will appear in the middle of the browser */
+  margin-top: 20px;
+}
+
+#logInLink{
+  font-family: monospace;
+  font-size: 10pt;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+p{
+  margin:2px;
+}
+
+
+/* class used on one of the text inputs */
+.textInput
+{
+  width: 240px; /* set the width of the input form */
+}
+
+.emailInput{
+  width: 240px;
+}
+
+
+/* class used on one of the text inputs with maxlength set to 4 */
+.password
+{
+  font-family: monospace;
+  width: 240px;
+}
+
+.buttonBox
+{
+  padding: 5px;
+}
+
+.floatLeft
+{
+  float: left;
+}
+
+.floatRight
+{
+  float: right;
+}
+
+/* This is used in a span about the text near one of the
+radio buttons */
+.fancy
+{
+  background-color: rgb(200,200,200);
+  padding: 5px;
+  border-bottom-style: dashed;
+}
+
+input[type="submit"]
+{
+  background-color: black;
+  color: white;
+  width: 240px;
+}
+
+.alignRight
+{
+  text-align: right;
+}
+
+.alignCenter
+{
+  text-align:center;
+}

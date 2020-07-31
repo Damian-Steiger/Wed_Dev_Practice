@@ -1,0 +1,66 @@
+<!-- Lab3 Task 1 - EECS1012 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Mad Coders </title>
+  <meta charset="utf-8">
+  <link href="lab3_ex1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="header">
+      <p> Already have a account?<a id="logInLink" href="https://moodle.info.yorku.ca/"> Log In </a></p>
+  </div>
+
+
+  <div id="main">
+    <div class="alignCenter">
+      <p>
+      <img src="logo.png" alt="mad coder's logo">
+    </p>
+  </div>
+
+  <!-- all Form Elements are within the <form></form> tags -->
+  <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/testForm.php" method="get">
+    <p> Name:
+      <!-- the name property is the name of the data that will sent to <thead>
+      web program.  so, whatever is typed into this input will be sent <aside class="">
+      textInput="whatever your typed in" -->
+      <input class="textInput" type="text" name="name">
+    </p>
+    <p> Email:
+      <input class="emailInput" type="email" name="email">
+      <p>
+        <!-- this input will only allow 4 characters to be typed -->
+        <p> Password:
+          <input class="password" type="password" name="password">
+        </p>
+
+        <div class="buttonBox">
+          <div class="floatLeft">
+            <!-- each checkbox and text is a paragraph -->
+            <!-- each checkbox has its own name. value is what will be associated
+            with the name if it is clicked. So if checkbox 2 is clicked, then form
+            will send checkThree="discount" to the web program -->
+            <p>
+              <input type="checkbox" name="agreed" value="yes">  I agree to the terms and conditions?
+            </p>
+          </div>
+        </div>
+
+
+        <!-- end with two buttons -->
+        <div class="buttonBox">
+          <!-- submit input will create a form that when clicked will send the form -->
+          <p> <input type="submit" value="Create my Account"> </p>
+        </div>
+      </form>
+    </div>
+
+
+
+
+
+
+  </body>
+  </html>

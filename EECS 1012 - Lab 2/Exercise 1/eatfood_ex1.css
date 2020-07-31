@@ -1,0 +1,27 @@
+body {
+ border: 5px solid green;
+}
+
+#eat{
+  border: 5px solid yellow;
+}
+
+.top{
+  border: 5px solid red;
+}
+
+.jornal{
+  border: 5px solid blue;
+}
+
+.date{
+  border: 5px solid purple;
+}
+
+.footer{
+  border: 5px solid yellow;
+}
+
+p{
+  border: 2px solid black;
+}
